@@ -1,0 +1,317 @@
+/* Paleta de colores: #FC7300 , #1F8A70 , #00425A , #181823, #EFF5F5  */
+
+/* Tipografias: https://fonts.google.com/specimen/Poppins, https://fonts.google.com/specimen/Belanosima */
+
+/* Las secciones obligatorias son:
+●
+Quienes somos
+●
+¿Por qué elegirnos?
+●
+Propuesta educativa
+●
+Últimas noticias. */
+
+@import url("https://fonts.googleapis.com/css2? family= Poppins:wght@100;400;700 & display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: poppins, sans-serif;
+}
+
+img {
+  max-width: 100%;
+  max-height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navegador:link{
+  color: #EFF5F5;
+}
+.navegador:visited{
+  color: #EFF5F5;
+}
+
+.navegador:hover{
+  font-weight: 800;
+  color: #181823;
+}
+
+header {
+  min-height: 90vh;
+  background-image: url(../img/egresados.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.parrafo-imagen img{
+  width: 60vh;
+}
+
+figcaption{
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.propuesta-educativa{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content:space-evenly;
+  margin-top: 80px;
+}
+
+article {
+  border: solid 1px #181823;
+  padding-left: 4px;
+  margin: 5px;
+  border-radius: 5px;
+  box-shadow: #1f8a70 3px 3px 4px;
+}
+
+footer div a{
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+}
+
+.contacto a {
+  margin-top: 2rem;
+}
+
+.enlase:link {
+  text-decoration: none;
+  color: #181823;
+}
+.enlase:visited{
+  text-decoration: none;
+  color: #181823;
+}
+
+.enlase:hover{
+  font-weight: 800;
+  color:#fc7300;
+}
+
+aside {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+
+@media screen and (min-width: 320px){
+  body{
+    min-width: 100vh;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: "Belanosima", sans-serif;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 4rem;
+    margin:0;
+    color: #fc7300;
+    text-shadow: 4px 0px 3px #181823;
+  }
+
+  h2 {
+    font-size: 2rem;
+    margin-top: 3rem;
+  }
+  
+  h3 {
+    font-size: 1.7rem;
+  }
+  
+  p {
+    font-size: 1.2rem ;
+    margin: 1rem;
+    text-align: justify;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: start;
+    background-color: #1f8a70;
+    padding: 0.5rem;
+    margin: 0;
+    position: sticky;
+    top: 0;
+    font-size: 1.5rem;
+  }
+
+  .navegador:link{
+    color: #EFF5F5;
+  }
+  .navegador:visited{
+    color: #EFF5F5;
+  }
+  
+  .navegador:hover{
+    font-weight: 800;
+    color: #181823;
+    background-color:#64eecb;
+    padding: 0.5em 1em;
+    border-radius: 10px;
+  }
+
+  .parrafo-imagen{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content:space-evenly;
+    text-align: justify;
+    margin-left: 3em;
+    margin-right: 3em;
+    border: solid 4px #00425A;
+  }
+
+  .propuesta-educativa img{
+    padding: 0.2em;
+    border: solid 0.5em #00425A;
+    border-radius: 1em;
+    width:400px;
+  } 
+
+  .noticias {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+
+  footer {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content:center;
+    align-content: center;
+    margin: 0;
+    margin-top: 3rem;
+  }
+}
+
+
+@media screen and (min-width: 768px){
+
+  h1,
+  h2,
+  h3 {
+    font-family: "Belanosima", sans-serif;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 3.5rem;
+    margin:0;
+    color: #fc7300;
+    text-shadow: 4px 0px 3px #181823;
+  }
+  h2 {
+    font-size: 2.5rem;
+    margin-top: 3rem;
+  }
+  
+  h3 {
+    font-size: 2rem;
+  }
+  
+  p {
+    font-size: 1.5rem ;
+    margin: 1rem;
+    text-align: justify;
+  }
+
+  nav {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    background-color: #1f8a70;
+    padding: 0.5rem;
+    margin: 0;
+    position: sticky;
+    top: 0;
+  }
+
+  .navegador:link{
+    color: #EFF5F5;
+  }
+  .navegador:visited{
+    color: #EFF5F5;
+  }
+  
+  .navegador:hover{
+    font-weight: 800;
+    color: #181823;
+    background-color:#64eecb;
+    padding: 0.5em 1em;
+    border-radius: 10px;
+  }
+
+  .parrafo-imagen{
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content:space-evenly;
+    text-align: justify;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    border: solid 4px #00425A;
+  }
+  
+  .propuesta-educativa img{
+    padding: 0.2em;
+    border: solid 0.5em #00425A;
+    border-radius: 1em;
+    width: 250px;
+  } 
+
+  .noticias {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    margin: 0;
+    margin-top: 3rem;
+  }
+}
+
+@media screen and (min-width: 1024px){
+
+  .propuesta-educativa img{
+    padding: 0.2em;
+    border: solid 0.5em #00425A;
+    border-radius: 1em;
+    width: 200px;
+  } 
+}
+
+
+
+
+
+
+
