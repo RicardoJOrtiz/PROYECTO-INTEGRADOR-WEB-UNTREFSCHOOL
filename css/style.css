@@ -53,13 +53,14 @@ header {
   background-position: center;
   background-attachment: fixed;
   margin: 0;
-  padding: 0;
-  
+  padding: 0; 
 }
 
 .parrafo-imagen img{
-  width: 60vh;
+ width: 50vh;
 }
+
+
 
 figcaption{
   text-align: center;
@@ -270,16 +271,24 @@ aside {
     flex-flow: row nowrap;
     justify-content:space-evenly;
     text-align: justify;
-    margin-left: 5rem;
-    margin-right: 5rem;
+    /* margin-left: 5rem;
+    margin-right: 5rem; */
     border: solid 4px #00425A;
+
+  }
+  .parrafo-imagen p{
+    font-size: 1.2rem;
+  }
+
+  .parrafo-imagen img{
+    max-width: 100%; 
   }
   
   .propuesta-educativa img{
     padding: 0.2em;
     border: solid 0.5em #00425A;
     border-radius: 1em;
-    width: 250px;
+    width: 200px;
   } 
 
   .noticias {
