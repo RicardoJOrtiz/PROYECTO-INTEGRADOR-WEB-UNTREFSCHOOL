@@ -60,8 +60,6 @@ header {
  width: 50vh;
 }
 
-
-
 figcaption{
   text-align: center;
   font-size: 1.5rem;
@@ -170,8 +168,7 @@ aside {
     font-weight: 800;
     color: #181823;
     background-color:#64eecb;
-    padding: 0.5em 1em;
-    border-radius: 10px;
+    border-radius: 5px;
   }
 
   .parrafo-imagen{
@@ -220,7 +217,7 @@ aside {
   }
   
   h1 {
-    font-size: 3.5rem;
+    font-size: 4rem;
     margin:0;
     color: #fc7300;
     text-shadow: 4px 0px 3px #181823;
@@ -262,8 +259,7 @@ aside {
     font-weight: 800;
     color: #181823;
     background-color:#64eecb;
-    padding: 0.5em 1em;
-    border-radius: 10px;
+    border-radius: 5px;
   }
 
   .parrafo-imagen{
